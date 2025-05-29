@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:background = "@drawable/shape_adapter">
+
+    <TextView
+        android:id="@+id/NameTrain"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeMinTextSize="14sp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text="Сибирский Лесовоз-127"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/box" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/WithCargo"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="14dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text="4200т"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TypeCargo" />
+
+    <TextView
+        android:id="@+id/Colvo"
+        android:layout_width="51dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="14dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text="65В"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/WithCargo" />
+
+    <TextView
+        android:id="@+id/TypeCargo"
+        android:layout_width="168dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="14dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text="Лесоматериалы"
+        android:textAlignment="textStart"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="45dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text=" ~7 дней 8 часов"
+        android:textAlignment="textStart"
+        android:textColor="@color/orange"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Start"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text=" Красноярск"
+        android:textAlignment="textStart"
+        android:textColor="@color/lightBlue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTrain" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/Start"
+        app:layout_constraintStart_toEndOf="@+id/Start"
+        app:layout_constraintTop_toTopOf="@+id/Start"
+        app:srcCompat="@drawable/vector1" />
+
+    <TextView
+        android:id="@+id/Finish"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="none"
+        android:background="@drawable/shape_adapter_text"
+        android:fontFamily="@font/cost"
+        android:text="Владивосто..."
+        android:textAlignment="textStart"
+        android:textColor="@color/lightBlue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toEndOf="@+id/Start"
+        app:layout_constraintTop_toBottomOf="@+id/NameTrain" />
+</androidx.constraintlayout.widget.ConstraintLayout>

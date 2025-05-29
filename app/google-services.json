@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "415183315714",
+    "project_id": "interniti-a7c83",
+    "storage_bucket": "interniti-a7c83.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415183315714:android:cc23b5452aacc25840d81b",
+        "android_client_info": {
+          "package_name": "com.example.interniti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYjC7n8aL1ZBNnl8Qokn0tjaDu-kPT8ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
